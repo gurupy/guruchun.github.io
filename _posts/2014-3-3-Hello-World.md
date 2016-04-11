@@ -1,10 +1,8 @@
 ---
 layout: post
-title: You're up and running!
+title: github page에서 블로깅 시작
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+egloos, tistory, blogspot, facebook page 여러곳에서 블로그를 해봤지만, wiki 기반 블로그는 처음이다.
+텍스트 중심으로 쓰는 블로그라서 내 입맛에 딱 맞을 것 같다.
+그동안에 trac, redmine wiki로 수많은 문서들을 작성했던 것처럼 기억해 두어야할 많은 글을 써야겠다.
