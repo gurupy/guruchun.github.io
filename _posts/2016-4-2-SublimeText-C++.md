@@ -1,5 +1,7 @@
-Sublime Text 3
-==============
+---
+layout: post
+title: Sublime Text Setting for C/C++ Developer
+---
 
 설치
 ----
