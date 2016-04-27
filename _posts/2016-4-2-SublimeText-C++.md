@@ -18,11 +18,11 @@ title: Sublime Text Setting for C/C++ Developer
 ------
 
 -   단축키
-    -   패키지 컨트롤: ^~P
-    -   폴더구조 보이기/숨기기: ^KB
+    -   패키지 컨트롤: `^~P`
+    -   폴더구조 보이기/숨기기: `^KB`
     -   편집창 레이아웃
-        - 세로 레이아웃: `@~1(, 2, 3, 4)' -> 1컬럼 ~ 4컬럼
-        - 가로 레이아웃: `@~8(, 9)' -> 2행 ~ 3행
+        - 세로 레이아웃: `@~1(, 2, 3, 4)` -> 1컬럼 ~ 4컬럼
+        - 가로 레이아웃: `@~8(, 9)` -> 2행 ~ 3행
 
 C/C++ 환경
 ----------
@@ -30,10 +30,11 @@ C/C++ 환경
 -   Sublime Text 설정
     -   C++ Starting Kit
         -   Syntax highlighter 변경
-            -   View -> Syntax -> Open all with ... -> C++ Starting Kit -> C++
+            -   `View -> Syntax -> Open all with ... -> C++ Starting Kit -> C++`
     -   Linter-cppcheck
-        -   `preferences -> package settings -> sublime linter -> settings - user
+        -   `preferences -> package settings -> sublime linter -> settings - user`
         -   다음 내용을 추가함
+        
             ```
             "linters": {
                 "cppcheck": {
