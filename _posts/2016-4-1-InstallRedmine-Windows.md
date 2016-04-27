@@ -30,18 +30,18 @@ Windows 설치
         -   Unzip it into `$RedmineInstallDir$/apps/redmine/htdocs/public/themes`.
         -   Restart Redmine
 
-    3.  Theme 선택: “Administration ~~<span style="text-align:right;">Settings"</span>~~&gt; ”Display -&gt; Theme"
-    4.  Optional; `themes/$ThemeName$/stylesheets/application.css 수정
-        *** 폰트 변경
+    3.  Theme 선택
+        -   Administration ->Settings -> Display -> Theme
+    4.  Optional
+        - `themes/$ThemeName$/stylesheets/application.css' 수정
+        - 폰트 변경
         <pre>
         // CSS파일의 맨위에 사용할 폰트 위치 추가
-        `import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-
-//폰트를 적용할 class나 tag의 font-family 속성에 폰트 추가
-body{…; font-family:“Nanum Gothic”,…;}
-
-</pre>
-****\* Sidebar 폭 줄이기
+        import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+        //폰트를 적용할 class나 tag의 font-family 속성에 폰트 추가
+        body{…; font-family:“Nanum Gothic”,…;}
+        </pre>
+        - Sidebar 폭 줄이기
 
 -   플러그인 추가 설치
     -   Progressive Projects List
@@ -60,14 +60,13 @@ body{…; font-family:“Nanum Gothic”,…;}
 
 필요한 모든 것은 여기에 설명되어 있다.
 
--   ​Quick Guide, https://wiki.bitnami.com/Native\_Installers\_Quick\_Start\_Guide
+-   Quick Guide, https://wiki.bitnami.com/Native_Installers_Quick_Start_Guide
 -   User Manual, https://wiki.bitnami.com/Applications/BitNami\_Redmine
 
 자주쓰는 몇가지만 적어보자면…
 
 -   Start, restart redmine
     -   cmd line: `$installDir/ctlscript.sh start`, `$installDir/ctlscript.sh restart serviceName`
-    -   GUI: double-click `manager-linux-x64.run`
 
 백업 및 복구
 ------------
