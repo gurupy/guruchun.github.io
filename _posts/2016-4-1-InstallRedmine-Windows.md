@@ -50,8 +50,7 @@ Windows 설치
     -   WBS 일괄 등록: import/export excel WBS
     -   Checklist to issues
 -   외부 접속을 위한 방화벽 열기
-    -   httpd 80, mysql 3306, subversion 3690
-    -   참고, \[\[mcp:LinuxAdminManual| Linux 관리 매뉴얼\]\]
+    -   httpd 80, subversion 3690
 -   Eclipse Mylyn 연동
     -   참고, http://pseg.or.kr/pseg/?mid=infouse&document\_srl=3342&listStyle=viewer
 
