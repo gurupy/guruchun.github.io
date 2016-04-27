@@ -18,11 +18,16 @@ Visual Studio에서 c++11과 boost 라이브러리를 사용할 수 있는 개�
 - 프로젝트 설정에 다음 내용을 추가한다.
   * Properties > C/C++ > General > Additional Include Directories
     - Boost 설치시의 설치 폴더 위치를 지정한다.
+  * Properties > Linker > General > Additional Library Directories
+    - Boost 설치시의 설치 폴더 라이브러리위치를 지정한다.
   * Properties > C/C++ > Precompiled Headers
     - 미리 컴파일된 헤더 사용 안 함으로 설정한다.
 - 모든 프로젝트에서 boost를 사용할 수 있게 하려면 `VC++ Directories` 설정에 추가한다.
   * `Include Directories` 설정값에 boost 설치 경로를 추가한다. 
-  * `$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\boost_1_60_0`
+    - `$(VC_IncludePath);$(WindowsSDK_IncludePath);D:\boost_1_60_0`
+  * `Library Directories` 설정값에 boost library 경로를 추가한다. 
+    - `E:\Library\boost_1_60_0\lib64-msvc-14.0`
+    - 설치한 boost 라이브러리가 x86인지 x64인지 확인하고, 프로젝트의 target 구성을 라이브러리에 일치하도록 설정한다.
   
 ## Boost sample application 실행
 - Boost 홈페이지에서 tutorial이나 example에 있는 소스를 가져다가 실행한다.
