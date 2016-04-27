@@ -3,9 +3,6 @@ layout: post
 title: Redmine 설치 가이드(Windows)
 ---
 
-Redmine 설치/관리 가이드
-========================
-
 설치
 ----
 
