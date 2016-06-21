@@ -1,6 +1,6 @@
 ---
 layout: post
-title: std::map 사용하기, string, vector, user class
+title: C++ Using Property File (.properties, .ini)
 ---
 
 Read/write property file (java .properties or windows .ini style)
