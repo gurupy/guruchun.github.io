@@ -5,8 +5,7 @@ title: Redmine 설치 가이드(Windows)
 
 Bitnami Redmine stack(Windows용)을 다운로드 받아 설치하고, 테마 변경과 수정방법, 추가로 설치하면 좋은 플러그인을 소개한다.
 
-설치
-----
+## 설치
 
 패키지 다운로드
 
