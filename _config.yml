@@ -1,3 +1,14 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+#permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               guruchun's memory
+paginate:            5
+
+
 #
 # This file contains configuration flags to customize your site
 #
@@ -6,7 +17,7 @@
 name: Haechul,Chun (guruchun@gmail.com)
 
 # Short bio or description (displayed in the header)
-description: System engineer works for LG CNS
+description: System engineer working for LG CNS
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
