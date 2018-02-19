@@ -48,6 +48,19 @@ Successfully installed jekyll-3.7.2
 ## troubleshootings
 
 - `_post`에 생성한 md 페이지들이 보이지 않는다.
+``` console
+$ jekyll serve
+Configuration file: /home/chunhc/ws-blog/lanyon-master/_config.yml
+       Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.
+            Source: /home/chunhc/ws-blog/lanyon-master
+       Destination: /home/chunhc/ws-blog/lanyon-master/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+                    done in 0.168 seconds.
+ Auto-regeneration: enabled for '/home/chunhc/ws-blog/lanyon-master'
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+```
 - 한참을 헤맸는데, 구글링해보니 해결책은 있다.
 - `_config.yml`을 아래와 같이 수정했다. 왜 이렇게 해야하는지 모르겠다. 찝찝하다.
 ``` yml
