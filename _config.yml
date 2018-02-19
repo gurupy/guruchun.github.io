@@ -1,13 +1,16 @@
 future: true
+# Dependencies
+gems:                [jekyll-paginate]
 
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: false
+#relative_permalinks: true
 
 # Setup
 title:               guruchun's memory
+url:                 http://guruchun.github.io
 paginate:            5
 
 
@@ -16,10 +19,11 @@ paginate:            5
 #
 
 # Name of your site (displayed in the header)
-name: Haechul,Chun (guruchun@gmail.com)
+name: Steve Chun (천해철)
+emal: guruchun@gmail.com
 
 # Short bio or description (displayed in the header)
-description: System engineer working for LG CNS
+description: System & Software Engineer working for LG CNS
 
 
 theme: jekyll-theme-slate
