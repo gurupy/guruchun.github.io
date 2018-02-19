@@ -5,8 +5,7 @@ category: [web]
 tags: [jekyll, install, lanyon, theme]
 ---
 
-# jekyll
-
+## install jekyll
 
 ``` console
 $ sudo gem install jekyll
@@ -36,4 +35,27 @@ $ sudo apt install libtool
 $ sudo gem install jekyll
 ...
 Successfully installed jekyll-3.7.2
+```
+
+## download sample with lanyon theme
+
+- theme, http://lanyon.getpoole.com/
+- download, https://github.com/poole/lanyon
+- github에서 lanyon theme를 zip으로 다운로드 받은 후 적당한 디렉토리에 푼다.
+- 디렉토리 이동 후 `$ jekyll serv`를 실행하면 `_sites` 디렉토리에 컨텐츠가 생성되고 이를 jekyll이 호스팅한다.
+- browser에서 `http://localhost:4000`으로 접속해 생성된 페이지를 볼 수 있다.
+
+## troubleshootings
+
+- `_post`에 생성한 md 페이지들이 보이지 않는다.
+- 한참을 헤맸는데, 구글링해보니 해결책은 있다.
+- `_config.yml`을 아래와 같이 수정했다. 왜 이렇게 해야하는지 모르겠다. 찝찝하다.
+``` yml
+# Dependencies
+gems:                [jekyll-paginate]   # <----- inserted
+
+# Permalinks
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true               # <--- commented
 ```
