@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: github page에서 블로깅 시작
 ---
 
