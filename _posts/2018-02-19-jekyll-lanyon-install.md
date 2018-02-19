@@ -7,7 +7,8 @@ tags: [jekyll, install, lanyon, theme]
 
 # jekyll
 
-```bash
+
+``` console
 $ sudo gem install jekyll
 프로그램 'gem'을(를) 설치하지 않습니다. 다음을 입력해 설치할 수 있습니다:
 sudo apt install ruby
