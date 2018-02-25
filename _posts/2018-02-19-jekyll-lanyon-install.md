@@ -63,7 +63,7 @@ Configuration file: /home/chunhc/ws-blog/lanyon-master/_config.yml
 ```
 - 한참을 헤맸는데, 구글링해보니 해결책은 있다.
 - `_config.yml`을 아래와 같이 수정했다. 왜 이렇게 해야하는지 모르겠다. 찝찝하다.
-``` yaml
+``` console
 # Dependencies
 gems:                [jekyll-paginate]   # <----- inserted
 
