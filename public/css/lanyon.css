@@ -38,10 +38,11 @@
 html,
 body {
   overflow-x: hidden;
+  font-family: 'Nanum Gothic', "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 html {
-  font-family: 'Nanum Gothic','Nanum Gothic Coding', "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: 'Nanum Gothic', "PT Serif", Georgia, "Times New Roman", serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
