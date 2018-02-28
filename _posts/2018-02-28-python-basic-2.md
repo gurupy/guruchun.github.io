@@ -10,9 +10,11 @@ tags: [python, string]
 # printf 형식의 포맷 문자열 사용
 >>> "I eat %10d apples." % 3
 'I eat          3 apples.'
+
 # 여러개를 대입하기
 >>> "I eat %d %s." %(3, "apples")
 'I eat 3 apples.'
+
 # float를 자리수 지정해서 출력
 >>> import math
 >>> math.pi
