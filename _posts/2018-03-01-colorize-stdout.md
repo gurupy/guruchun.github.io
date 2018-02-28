@@ -1,3 +1,9 @@
+---
+layout: post
+title: Colorizing stdin piping stdout in linux terminal
+category: [linux, admin]
+tags: [admin, shell, terminal, colorizer, grc, linux]
+---
 
 ## 이런기능을 찾는 사람이 많았을텐데?
 - 그렇다.
