@@ -20,3 +20,15 @@ tags: [python, string]
 >>> "pi = %3.5f" %math.pi
 'pi = 3.14159'
 ```
+
+## 현재 시간
+``` python
+import time
+
+start = time.time()
+# do something
+str1 = input("input number #1:")
+end = time.time()
+diff = end - start
+print(diff)
+```
