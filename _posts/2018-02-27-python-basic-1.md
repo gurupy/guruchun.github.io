@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python  1
+title: Python 기초 1
 category: [python]
 tags: [python, 기초, basic]
 ---
@@ -35,7 +35,7 @@ tags: [python, 기초, basic]
 - %: 나눗셈 나머지
 - and: 논리 AND
 - or: 논리 OR
-- bit : &, |, ^, ~, >>, <<
+- bit : `&, |, ^, ~, >>, <<`
 
 ## 컨솔 입력받기
 ``` python
@@ -43,18 +43,6 @@ tags: [python, 기초, basic]
 str1 = input("input number #1:"))
 # 숫자로 바꾸려면 변환해야 한다.
 num2 = int(input("input number #2:"))
-```
-
-## 현재 시간
-``` python
-import time
-
-start = time.time()
-# do something
-str1 = input("input number #1:")
-end = time.time()
-diff = end - start
-print(diff)
 ```
 
 ## 블럭문
