@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Colorizing stdin piping stdout in linux terminal
+title: Colorizing stdout in linux terminal
 category: [linux, admin]
 tags: [admin, shell, terminal, colorizer, grc, linux]
 ---
