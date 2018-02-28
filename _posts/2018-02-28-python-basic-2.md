@@ -13,7 +13,7 @@ tags: [python, string]
 # 여러개를 대입하기
 >>> "I eat %d %s." %(3, "apples")
 'I eat 3 apples.'
-# float 출력
+# float를 자리수 지정해서 출력
 >>> import math
 >>> math.pi
 3.141592653589793
