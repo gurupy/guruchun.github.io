@@ -48,12 +48,12 @@ body {
 }
 
 html {
-  font-size: 16px;
+  font-size: 12px;
   line-height: 1.5;
 }
 @media (min-width: 38rem) {
   html {
-    font-size: 12px;
+    font-size: 1rem;
   }
 }
 
@@ -91,7 +91,7 @@ h2 {
   font-size: 1.4rem;
 }
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   font-size: 1.25rem;
 }
 h4, h5, h6 {
