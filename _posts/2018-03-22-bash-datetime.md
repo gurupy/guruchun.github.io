@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [BASH] Datetime Format
+title: Linux, Datetime Format
 category: [linux, shell]
 tags: [command, bash, shell, date, time, format]
 ---
