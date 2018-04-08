@@ -9,8 +9,8 @@ permalink:           pretty
 #relative_permalinks: true
 
 # Setup
-title:               guruchun's memory
-url:                 http://guruchun.github.io
+title:               python study
+url:                 http://gurupy.github.io
 paginate:            5
 
 
