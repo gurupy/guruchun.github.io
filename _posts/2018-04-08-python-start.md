@@ -25,6 +25,7 @@ tags: [python, start, orientation]
 * 더 쉽게 배우는 방법이 있나요?
   - https://code.tutsplus.com/articles/the-best-way-to-learn-python--net-26288 (원문)
   - https://nolboo.kim/blog/2014/08/10/the-best-way-to-learn-python/ (번역)
+  - 파이썬 코딩도장, https://dojang.io/course/view.php?id=3
 * Python2.7 vs Python3.x
   - https://wikidocs.net/743
 * 어떤 책으로 시작할까요?
