@@ -93,3 +93,4 @@ tags: [python, start, orientation]
 * 8일차
   - 파이썬을 활용한 문제해결 연습
   - 기출문제 풀어보기
+  - 온라인 코딩훈련 사이트
