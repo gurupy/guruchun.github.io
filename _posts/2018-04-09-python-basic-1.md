@@ -123,7 +123,17 @@ tags: [python, 기초, basic]
 * https://b.luavis.kr/python/python-convention (번역)
 
 ## MISSION
+
 * `*`와 `print, for`를 사용해서 나무를 그려보세요.
+```
+     *
+     ***
+     *****
+     *******
+     *
+     *
+```
+* 가운데 정렬하면 그럴듯한 나무 모양이 나오겠네요.
 ```
         *
        ***
