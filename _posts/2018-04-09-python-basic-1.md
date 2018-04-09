@@ -7,15 +7,15 @@ tags: [python, 기초, basic]
 
 ## 개발환경 만들다가 지쳐요. 바로 코딩합시다.
 * 브라우저에서 온라인으로 파이썬 코딩을 연습할 수 있는 곳
-  - https://www.tutorialspoint.com/execute_python3_online.php 원조?
-  - https://repl.it/ 로그인 필요, 가끔씩 느려요
-  - https://ideone.com/ 하나의 창에서 모든 프로그래밍 언어 선택 가능
+  - <https://www.tutorialspoint.com/execute_python3_online.php> 원조?
+  - <https://repl.it/> 로그인 필요, 가끔씩 느려요
+  - <https://ideone.com/> 하나의 창에서 모든 프로그래밍 언어 선택 가능
 * 잘 안보겠지만... 알고는 있어야죠.
   * Python Language Reference
-    - https://docs.python.org/3.6/reference/index.html (원문)
-    - http://python.flowdas.com/reference/index.html (한글)
+    - <https://docs.python.org/3.6/reference/index.html> (원문)
+    - <http://python.flowdas.com/reference/index.html> (한글)
   * Python Standard Library
-    - https://docs.python.org/3/library/ (원문)
+    - <https://docs.python.org/3/library/> (원문)
 
 ## print
   - 숫자, 문자열
@@ -119,8 +119,8 @@ tags: [python, 기초, basic]
   num2 = int(input("input number #2:"))
   ```
 ## 더 읽을 거리
-* https://www.python.org/dev/peps/pep-0008/ (코딩 가이드 원문)
-* https://b.luavis.kr/python/python-convention (번역)
+* <https://www.python.org/dev/peps/pep-0008/> (코딩 가이드 원문)
+* <https://b.luavis.kr/python/python-convention> (번역)
 
 ## MISSION
 
