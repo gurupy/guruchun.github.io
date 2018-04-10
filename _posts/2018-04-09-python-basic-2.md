@@ -37,6 +37,7 @@ tags: [python, string]
     w = h//10
     print("{0:^{width}}".format("*" * (w*2+1), width=h*2))
   ```
+  
 ## 문자열 포맷팅
 * <https://pyformat.info/>
 * old style `'%s %s' % ('one', 'two')`
@@ -90,14 +91,17 @@ tags: [python, string]
   'test______'
   ```
 
-## 현재 시간
-``` python
-import time
+## 문자열 다루기
+* TBD
 
-start = time.time()
-# do something
-str1 = input("input number #1:")
-end = time.time()
-diff = end - start
-print(diff)
-```
+## 현재 시간
+    ``` python
+    import time
+    
+    start = time.time()
+    # do something
+    str1 = input("input number #1:")
+    end = time.time()
+    diff = end - start
+    print(diff)
+    ```
