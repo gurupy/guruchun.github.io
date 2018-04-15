@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 기초 1
-category: [python]
+category: [basic]
 tags: [python, 기초, basic]
 ---
 
@@ -151,5 +151,5 @@ tags: [python, 기초, basic]
      *******       |
     *********     ---  
         *          | --> 줄기(trunk)는 절반으로
-        *         --- 
+        *         ---
 ```

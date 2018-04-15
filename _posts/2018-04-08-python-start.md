@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 시작하기
-category: [python]
+category: [basic]
 tags: [python, start, orientation]
 ---
 

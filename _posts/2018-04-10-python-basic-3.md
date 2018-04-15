@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 기초 3
-category: [python]
+category: [basic]
 tags: [python, file]
 ---
 
@@ -21,4 +21,3 @@ tags: [python, file]
 * ab: binary append
 
 ### 파일 읽기
-
