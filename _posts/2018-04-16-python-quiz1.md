@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python 문제풀이: 정렬, 문자열
+title: Python 문제풀이 1
 category: [quiz]
 tags: [python, quiz]
 ---
