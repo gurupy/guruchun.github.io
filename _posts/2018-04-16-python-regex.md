@@ -1,3 +1,9 @@
+---
+layout: post
+title: 정규 표현식, Regular Expression
+category: [etc]
+tags: [string, regex, regexp]
+---
 
 ## 선택
 * 임의의 한 문자 ( `.` )
