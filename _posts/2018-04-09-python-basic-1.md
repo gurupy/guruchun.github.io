@@ -30,9 +30,10 @@ tags: [python, 기초, basic]
     ```
 
 ## 변수와 자료형
-- 프로그램에서 `=`은 할당이지 eual `==`이 아니다.
+- 프로그램에서 `=`은 할당이지 equal `==`이 아니다.
   ```
   3 + 4 = 7  # 수학에서 맞으나 프로그램에서는 허용 안됨
+  x = 3 + 4  # 프로그램에서 변수 x에 3+4를 넣는다는 의미
   3 + 4 == 7 # 프로그램에서 같다는 의미로 쓰이고 결과는 True
   3 + 4 == 6 # 수학에서는 틀림, 프로그램에서는 허용되고 결과는 False
   ```
@@ -98,14 +99,17 @@ tags: [python, 기초, basic]
       print("B")
       print("lazy boy...")
 
-  for x in range(10):
-      print(x)
-  print("end")
   ```
 - 반복횟수를 알 수 있을 때는 for를 쓴다.
   ``` python
+  # i <-- 1~9
   for i in range(1,10):
-    do_something()
+    print(x)
+
+  # 차이는? 0~9
+  for x in range(10):
+    print(x)
+  print("end")
   ```
 - 조건이 만족하는 동안 반복해야할 때는 while을 쓴다.
   ``` python
