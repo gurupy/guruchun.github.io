@@ -5,7 +5,6 @@ category: [topic]
 tags: [python, string]
 ---
 
-# 문자열 다루기
 ## 문자열에서 문자 얻기
 - 차례대로 전부
   ``` python
