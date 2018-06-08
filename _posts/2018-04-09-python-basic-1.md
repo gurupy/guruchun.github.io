@@ -10,7 +10,7 @@ tags: [python, 기초, basic]
   - <https://www.tutorialspoint.com/execute_python3_online.php> 원조?
   - <https://repl.it/> 로그인 필요, 가끔씩 느려요
   - <https://ideone.com/> 하나의 창에서 모든 프로그래밍 언어 선택 가능
-* 잘 안보겠지만... 알고는 있어야죠.
+* 지금은 안보겠지만... 나중에는 많이 봐요...
   * Python Language Reference
     - <https://docs.python.org/3.6/reference/index.html> (원문)
     - <http://python.flowdas.com/reference/index.html> (한글)
