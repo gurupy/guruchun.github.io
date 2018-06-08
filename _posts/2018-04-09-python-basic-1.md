@@ -112,6 +112,7 @@ tags: [python, 기초, basic]
   while isOk:
     isOk = do_something()
   ```
+
 ## 컨솔 입력받기
 * 입력은 항상 문자열로 들어온다.
   ``` python
@@ -119,6 +120,46 @@ tags: [python, 기초, basic]
   # 숫자로 바꾸려면 변환해야 한다.
   num2 = int(input("input number #2:"))
   ```
+
+## 함수
+* 함수 정의와 사용
+    - <http://byteofpython-korean.sourceforge.net/byte_of_python.html#functions>
+* 매개변수 이름에 값을 지정하여 함수 호출
+    ```python
+    def sum(a, b):
+        return a+b
+
+    sum(10,23)
+    sum(b=23, a=10)
+    ```
+* 가변인자 사용하기
+    ```python
+    def funcName(*args):
+        do_something_with_args
+
+    def sum_many(*args):
+        sum = 0
+        for i in args:
+            sum = sum + i
+        return sum
+    sum_many(1,2,3,4,5,6)
+    ```
+* main 함수 만들기
+  ```python
+  def main():
+    do_something
+
+  # python 파일을 실행할때만 main()을 호출한다.
+  if __name__ == "__main__":
+    main()
+  ```
+
+## 전역변수
+* 함수 밖에 있으면 전역변수
+* 함수 안에 있으면 지역변수
+* 블럭은 구분될까?
+* 지역변수를 전역변수처럼 만들기 (global)
+
 ## 더 읽을 거리
 * <https://www.python.org/dev/peps/pep-0008/> (코딩 가이드 원문)
 * <https://b.luavis.kr/python/python-convention> (번역)
