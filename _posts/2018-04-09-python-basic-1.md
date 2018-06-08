@@ -17,7 +17,7 @@ tags: [python, 기초, basic]
   * Python Standard Library
     - <https://docs.python.org/3/library/> (원문)
 
-## print
+## 화면에 뭔가를 보여주세요: print()
   - 숫자, 문자열
     ``` python
     print("hello world")
